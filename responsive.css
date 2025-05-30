@@ -1,0 +1,308 @@
+
+@media(max-width: 1440px) {
+    .section-hero {
+        height: 530px;
+        background-size: contain;
+    }
+}
+
+@media(max-width: 1280px) {
+    .partners {
+        bottom: 75px;
+    }
+
+    .para-heading {
+        font-size: 3.8rem;
+    }
+
+    .hero-top-heading {
+        font-size: 6.4rem;
+    }
+
+    .bg-map-main {
+        height: 612px;
+    }
+
+    .quality-img {
+        width: 250px;
+    }
+
+    .team-section {
+        padding: 6rem 4rem 10rem 4rem;
+    }
+
+}
+
+@media(max-width: 1024px) {
+    .section-hero {
+        height: 50vh;
+        background-size: contain;
+    }
+
+    .partners {
+        bottom: 50px;
+    }
+
+    .bike-bage-img {
+        width: 300px;
+    }
+
+    .curf-img {
+        width: 400px;
+    }
+
+    .team-section {
+        padding: 6rem 4rem 15rem 4rem;
+
+    }
+
+    .team-section {
+        padding: 6rem 4rem 8rem 4rem;
+    }
+
+    .why-desc {
+        font-size: 1.4rem;
+    }
+
+    .why-we-ride-bg::before {
+        top: 0;
+    }
+
+    .footer-newsletter-title {
+        font-size: 3.8rem;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    .quality-img {
+        top: -15%;
+    }
+
+    .nav-menu a {
+        color: var(--black-color);
+        font-size: 32px;
+        padding-top: 5rem;
+    }
+
+
+    .section-header .container {
+        padding: 1rem 3rem;
+    }
+
+    .section-header {
+        padding: 2rem 7.5rem;
+    }
+
+    .nav-container {
+        position: absolute;
+        top: 70px;
+        /* adjust as needed */
+        right: 0;
+        background: #fff;
+        width: 200px;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.10);
+        border-radius: 8px;
+        padding: 20px 0;
+        display: none;
+        z-index: 1000;
+    }
+
+    .nav-container.open {
+        display: block;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        padding-left: 20px;
+    }
+
+    .hero-top-heading {
+        font-size: 5.4rem;
+    }
+
+
+    p {
+        font-size: 1.4rem;
+    }
+
+    .footer-desc {
+        width: 50%;
+    }
+
+    .footer-social {
+        margin-bottom: 3rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .menu-toggle {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .bg-map-main {
+        box-shadow: 1px -58px 41px 7px rgba(255, 255, 255, 1) inset;
+        -webkit-box-shadow: 1px -58px 41px 7px rgba(255, 255, 255, 1) inset;
+        -moz-box-shadow: 1px -58px 41px 7px rgba(255, 255, 255, 1) inset;
+        height: 412px;
+    }
+
+    .section-hero {
+        align-items: start;
+    }
+
+    .partners {
+        bottom: 70px;
+        left: 10%;
+    }
+
+    .section-hero {
+        height: 40vh;
+    }
+
+    .perform-content {
+        padding: 2rem;
+        padding-right: 2rem;
+    }
+
+    .quality-img {
+        top: 0%;
+    }
+
+    .section-spark,
+    .section-tools {
+        padding: 2rem;
+    }
+
+    .why-we-ride-section {
+        padding: 2rem;
+    }
+
+    .footer-section {
+        padding: 50px 2rem 30px 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .curf-img {
+        width: 300px;
+    }
+
+    .bike-bage-img {
+        width: 200px;
+    }
+
+    .section-header {
+        padding: 2rem;
+    }
+
+    .section-hero {
+        padding: 0 2rem;
+    }
+
+    .partners {
+        bottom: 125px;
+    }
+
+    .hero-top-heading {
+        font-size: 4.2rem;
+        line-height: 3rem;
+    }
+
+    .para-heading {
+        font-size: 3rem;
+    }
+
+    .partners {
+        bottom: 0px;
+        left: 6%;
+    }
+
+    .section-hero {
+        height: 350px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .spark-bord,
+    .section-tools {
+        padding: 2rem;
+    }
+
+    .team-title {
+        margin-bottom: 3rem;
+    }
+
+    .team-section {
+        padding: 3rem 2rem 4rem 2rem;
+    }
+
+    .footer-links {
+        padding: 1rem 0;
+    }
+}
+
+@media (max-width: 414px) {
+
+    .partners {
+        width: 70%;
+    }
+
+    .bike-bage-img {
+        width: 200px;
+    }
+
+    .curf-img {
+        width: 300px;
+    }
+
+    .team-title {
+        font-size: 3rem;
+    }
+
+    .why-title {
+        font-size: 3.8rem;
+    }
+
+    .footer-newsletter-title {
+        font-size: 2.8rem;
+        line-height: 4rem;
+    }
+
+    .footer-desc {
+        width: 75%;
+    }
+
+    .footer-btn {
+        background: #0d8ddb;
+        text-wrap: nowrap;
+    }
+
+
+
+}
+
+@media (max-width: 360px) {
+
+    .section-header .container {
+        padding: 1rem;
+    }
+
+    .hero-top-heading {
+        font-size: 3.2rem;
+        line-height: 1rem;
+    }
+}
