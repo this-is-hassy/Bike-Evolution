@@ -1,8 +1,11 @@
 
 @media(max-width: 1440px) {
-    .section-hero {
-        height: 530px;
-        background-size: contain;
+    .section-hero .container {
+        padding: 0 7.5rem;
+    }
+
+    .why-we-ride-bg::before {
+        top: -30%;
     }
 }
 
@@ -34,9 +37,8 @@
 }
 
 @media(max-width: 1024px) {
-    .section-hero {
-        height: 50vh;
-        background-size: contain;
+    .why-we-ride-bg::before {
+        top: 10%;
     }
 
     .partners {
@@ -62,10 +64,6 @@
 
     .why-desc {
         font-size: 1.4rem;
-    }
-
-    .why-we-ride-bg::before {
-        top: 0;
     }
 
     .footer-newsletter-title {
@@ -98,7 +96,6 @@
     .nav-container {
         position: absolute;
         top: 70px;
-        /* adjust as needed */
         right: 0;
         background: #fff;
         width: 200px;
@@ -148,19 +145,38 @@
     html {
         overflow-x: hidden;
     }
+
+    .why-we-ride-bg::before {
+        display: none;
+    }
 }
 
 @media (max-width: 767px) {
+    .bg-map-main {
+        background-position: bottom left;
+    }
+
+      .section-hero {
+      position: relative;
+      background-image: url('assets/hero-mob.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 70vh;
+      width: 100%;
+      overflow: hidden; 
+      align-items: start;
+      }
+
+      .section-hero .container{
+        padding: 0 2rem;
+      }
 
     .bg-map-main {
         box-shadow: 1px -58px 41px 7px rgba(255, 255, 255, 1) inset;
         -webkit-box-shadow: 1px -58px 41px 7px rgba(255, 255, 255, 1) inset;
         -moz-box-shadow: 1px -58px 41px 7px rgba(255, 255, 255, 1) inset;
-        height: 412px;
-    }
-
-    .section-hero {
-        align-items: start;
+        height: 470px;
     }
 
     .partners {
@@ -168,9 +184,7 @@
         left: 10%;
     }
 
-    .section-hero {
-        height: 40vh;
-    }
+   
 
     .perform-content {
         padding: 2rem;
@@ -193,9 +207,50 @@
     .footer-section {
         padding: 50px 2rem 30px 2rem;
     }
+
+    .section-header {
+        padding: 2rem;
+    }
+
+    .hero-headings{
+        padding-top: 2rem;
+    }
+
+    .part-main {
+        left: 20px;
+        bottom: 20px;
+        right: 0;
+    }
+
+    .partners {
+        height: 30px;
+    }
 }
 
 @media (max-width: 576px) {
+
+    .why-we-ride-section {
+        margin-bottom: 4rem;
+    }
+
+    .why-desc {
+        width: 92%;
+    }
+
+    .team-member {
+        margin-bottom: 45px;
+    }
+
+    .section-hero{
+        height: 365px;
+    }
+    .part-main {
+        gap: 1rem;
+    }
+
+    .partners {
+        height: 20px;
+    }
 
     .curf-img {
         width: 300px;
@@ -205,36 +260,16 @@
         width: 200px;
     }
 
-    .section-header {
-        padding: 2rem;
-    }
-
-    .section-hero {
-        padding: 0 2rem;
-    }
-
-    .partners {
-        bottom: 125px;
-    }
 
     .hero-top-heading {
         font-size: 4.2rem;
+        font-weight: 400;
         line-height: 3rem;
     }
 
     .para-heading {
         font-size: 3rem;
-    }
-
-    .partners {
-        bottom: 0px;
-        left: 6%;
-    }
-
-    .section-hero {
-        height: 350px;
-        background-size: cover;
-        background-position: center;
+        font-weight: 600;
     }
 
     .spark-bord,
@@ -257,16 +292,13 @@
 
 @media (max-width: 414px) {
 
-    .partners {
-        width: 70%;
-    }
 
     .bike-bage-img {
-        width: 200px;
+        width: 300px;
     }
 
     .curf-img {
-        width: 300px;
+        width: 350px;
     }
 
     .team-title {
@@ -290,8 +322,6 @@
         background: #0d8ddb;
         text-wrap: nowrap;
     }
-
-
 
 }
 

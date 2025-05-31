@@ -28,7 +28,7 @@ a {
 p {
     font-size: 1.6rem;
     letter-spacing: 0.1rem;
-    font-weight: 400;
+    font-weight: 600;
     color: var(--black-color);
     line-height: 2.5rem;
 }
@@ -65,7 +65,7 @@ body {
 .container {
     max-width: 144rem;
     margin: 0 auto;
-    padding: 0 1rem;
+    padding: 0;
 }
 
 .flex {
@@ -144,21 +144,36 @@ body {
 }
 
 
+
+
 .section-hero {
     position: relative;
-    background-image: url(assets/hero-image.png);
-    padding: 0 7.5rem;
-    width: 100vw;
-    height: 70vh;
+    background-image: url('assets/hero-image.png');
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
+    height: 70vh;
+    width: 100%;
+    overflow: hidden;
     display: flex;
     align-items: center;
 }
 
+.part-main {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    display: flex;
+    gap: 2rem;
+}
+
+.partners {
+    max-width: 100%;
+    height: 40px;
+}
 
 .para-heading {
-    font-size: 4.8rem;
+    font-size: 4.6rem;
     font-weight: 600;
     color: var(--white-color);
     padding-bottom: 1.5rem;
@@ -169,16 +184,6 @@ body {
     font-weight: 400;
     color: var(--white-color);
 }
-
-
-.partners {
-    position: absolute;
-    bottom: 30px;
-    right: 50px;
-    width: 50rem;
-    height: 5.5rem;
-}
-
 
 
 .section-performance .para-heading {
@@ -203,7 +208,7 @@ body {
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: bottom left;
     box-shadow: 80px -79px 41px -17px rgba(255, 255, 255, 0.98) inset;
     -webkit-box-shadow: 80px -79px 41px -17px rgba(255, 255, 255, 0.98) inset;
     -moz-box-shadow: 80px -79px 41px -17px rgba(255, 255, 255, 0.98) inset;
@@ -221,7 +226,7 @@ body {
 }
 
 .section-spark {
-    padding: 4rem 5rem;
+    padding: 4rem 7.5rem;
 }
 
 .spark-bord {
@@ -244,7 +249,7 @@ body {
 }
 
 .section-tools {
-    padding: 5rem;
+    padding: 4rem 7.5rem;
 }
 
 .curf-img {
@@ -254,7 +259,7 @@ body {
 
 
 .team-section {
-    padding: 6rem 0 15rem 0;
+    padding: 6rem 12.5rem;
     text-align: center;
 }
 
@@ -440,6 +445,7 @@ body {
     position: relative;
     z-index: 1;
     padding: 0 7.5rem;
+    margin-bottom: 12rem;
 }
 
 .why-we-ride-bg {
@@ -450,14 +456,18 @@ body {
 .why-we-ride-bg::before {
     content: '';
     position: absolute;
-    top: 10%;
+    top: -60%;
     left: 0;
     width: 100%;
-    height: 400px;
+    height: 600px;
     background: url(assets/BE\ Stroke-01\ 1.png);
+    transform: scale(1.2);
+    background-repeat: no-repeat;
+    background-position: top;
     background-size: contain;
     z-index: 0;
     pointer-events: none;
+    max-width: 100% !important;
 }
 
 .why-title {
@@ -474,6 +484,7 @@ body {
     line-height: 1.6;
     position: relative;
     z-index: 1;
+    width: 88%;
 }
 
 .why-bold {
@@ -486,6 +497,7 @@ body {
     width: 100%;
     max-width: 100%;
     border-radius: 10px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
 .menu-toggle {
