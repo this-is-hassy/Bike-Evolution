@@ -27,7 +27,7 @@ a {
 p {
     font-size: 1.6rem;
     letter-spacing: 0.1rem;
-    font-weight: 600;
+    font-weight: 400;
     color: var(--black-color);
     line-height: 2.5rem;
 }
